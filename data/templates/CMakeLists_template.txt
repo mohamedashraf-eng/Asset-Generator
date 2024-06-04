@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(xyz)
+
+include(CTest)
+include("${CMAKE_PROJECT_DIR}/user.cmake")
+
+# Building software
+add_subdirectory("${software_dir}")
+
+# Building xyz
+# add_subdirectory("${xyz}")
+
+# Building xyz
+# add_subdirectory("${xyz}")

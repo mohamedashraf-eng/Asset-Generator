@@ -1,0 +1,165 @@
+{
+    "metadata": {
+        "generator_name": "mowx_xftg_wx13",
+        "version": "2.0.0",
+        "author": "MoWx",
+        "description": "A tool for generating files from templates",
+        "created_at": "May 5 2024",
+        "last_updated_at": "May 5 2024"
+    },
+    "templates": [
+        {
+            "name": "C Source File",
+            "source_file": "Can",
+            "file_extension": ".c",
+            "description": "Template for generating C source file",
+            "file_header": [
+                {
+                    "name": "FILENAME",
+                    "value": "Can.c",
+                    "description": ""
+                },
+                {
+                    "name": "AUTHOR",
+                    "value": "AUTOSarZs-DevTeam",
+                    "description": ""
+                },
+                {
+                    "name": "DATE",
+                    "value": "2024-5-12",
+                    "description": ""
+                },
+                {
+                    "name": "VERSION",
+                    "value": "1.0.0",
+                    "description": ""
+                },
+                {
+                    "name": "PLATFORM",
+                    "value": "Tiva C",
+                    "description": ""
+                },
+                {
+                    "name": "VENDOR",
+                    "value": "AUTOSarZs OLC",
+                    "description": ""
+                },
+                {
+                    "name": "SPECIFICATION(S)",
+                    "value": "Specification of CAN Driver, AUTOSAR Release 4.3.1",
+                    "description": ""
+                },
+                {
+                    "name": "MAY BE CHANGED BY USER",
+                    "value": "No",
+                    "description": ""
+                },
+                {
+                    "name": "DESCRIPTION",
+                    "value": "CAN Driver source file",
+                    "description": ""
+                }, 
+                {
+                    "name": "LICENSE",
+                    "value": "MPL 2.0",
+                    "description": ""
+                }
+            ],
+            "file_sections": [
+                {
+                    "name": "include_common_headers",
+                    "value": "Include Common Headres",
+                    "description": ""
+                },
+                {
+                    "name": "include_other_headers",
+                    "value": "Include Other Headres",
+                    "description": ""
+                },
+                {
+                    "name": "include_component_headers",
+                    "value": "Include Component Headres",
+                    "description": ""
+                },
+                {
+                    "name": "local_macros_definition",
+                    "value": "Local Macro Definition",
+                    "description": ""
+                },
+                {
+                    "name": "local_types_definition",
+                    "value": "Local Types Definition",
+                    "description": ""
+                },
+                {
+                    "name": "exported_variables_definition",
+                    "value": "Exported Variables Definition",
+                    "description": ""
+                },
+                {
+                    "name": "local_enums_definition",
+                    "value": "Local Enums Definition",
+                    "description": ""
+                },
+                {
+                    "name": "local_variables_definition",
+                    "value": "Local Variables Definition",
+                    "description": ""
+                },
+                {
+                    "name": "local_structs_definition",
+                    "value": "Local Structs Definition",
+                    "description": ""
+                },
+                {
+                    "name": "local_unions_definition",
+                    "value": "Local Unions Definition",
+                    "description": ""
+                },
+                {
+                    "name": "local_functions_declaration",
+                    "value": "Local Functions Declaration",
+                    "description": ""
+                },
+                {
+                    "name": "local_functions_definition",
+                    "value": "Local Functions Definition",
+                    "description": ""
+                },
+                {
+                    "name": "global_functions_definition",
+                    "value": "Global Functions Definition",
+                    "description": ""
+                }
+            ],
+            "file_fill_values": {
+                "include_common_headers": [
+                ],
+                "include_other_headers": [
+                ],
+                "include_component_headers": [
+                ],
+                "local_macros_definition": [
+                ],
+                "local_structs_definition": [
+                ],
+                "local_enums_definition": [
+                ],
+                "local_unions_definition": [
+                ],
+                "local_types_definition": [
+                ],
+                "exported_variables_definition": [
+                ],
+                "local_variables_definition": [
+                ],
+                "local_functions_declaration": [
+                ],
+                "local_functions_definition": [
+                ],
+                "global_functions_definition": [
+                ]
+            }
+        }
+    ]
+}
