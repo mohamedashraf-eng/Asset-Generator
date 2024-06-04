@@ -298,3 +298,243 @@
 [INFO|logy|L65] 2024-06-04T11:28:15+0000: ostream: Done filling sections: global_functions_definition
 [INFO|logy|L65] 2024-06-04T11:28:15+0000: ostream: Successfully putted file sections `/workspace/out/Can.c`
 [INFO|logy|L65] 2024-06-04T11:28:15+0000: ostream: Done running output stream
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Running output stream
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Putting file: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Successfully putted file `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Putting file headers: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Successfully putted file headers `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Putting file sections: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: include_common_headers
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling common headers section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling common headers section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: include_common_headers
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: include_other_headers
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling other headers section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling other headers section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: include_other_headers
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: include_component_headers
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling component headers section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling component headers section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: include_component_headers
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: local_macros_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling macros definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling macros definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: local_macros_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: local_types_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling types definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling types definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: local_types_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: exported_variables_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling exported variables definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling exported variables definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: exported_variables_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: local_enums_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling enums definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling enums definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: local_enums_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: local_variables_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling local variables definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling local variables definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: local_variables_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: local_structs_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling structs definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling structs definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: local_structs_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: local_unions_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling unions definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling unions definition section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: local_unions_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: local_functions_declaration
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling local functions declaration section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling local functions declaration section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: local_functions_declaration
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling sections: local_functions_definition
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Filling local functions defintion section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling local functions defintion section
+[INFO|logy|L65] 2024-06-04T13:14:36+0000: ostream: Done filling sections: local_functions_definition
+[INFO|logy|L65] 2024-06-04T13:14:37+0000: ostream: Filling sections: global_functions_definition
+[INFO|logy|L65] 2024-06-04T13:14:37+0000: ostream: Filling global functions defintion section
+[INFO|logy|L65] 2024-06-04T13:14:37+0000: ostream: Done filling global functions declaration section
+[INFO|logy|L65] 2024-06-04T13:14:37+0000: ostream: Done filling sections: global_functions_definition
+[INFO|logy|L65] 2024-06-04T13:14:37+0000: ostream: Successfully putted file sections `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:14:37+0000: ostream: Done running output stream
+[INFO|logy|L65] 2024-06-04T13:14:59+0000: ostream: Running output stream
+[INFO|logy|L65] 2024-06-04T13:14:59+0000: ostream: Putting file: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Successfully putted file `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Putting file headers: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Successfully putted file headers `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Putting file sections: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: include_common_headers
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling common headers section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling common headers section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: include_common_headers
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: include_other_headers
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling other headers section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling other headers section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: include_other_headers
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: include_component_headers
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling component headers section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling component headers section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: include_component_headers
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: local_macros_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling macros definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling macros definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: local_macros_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: local_types_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling types definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling types definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: local_types_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: exported_variables_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling exported variables definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling exported variables definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: exported_variables_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: local_enums_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling enums definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling enums definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: local_enums_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: local_variables_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling local variables definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling local variables definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: local_variables_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: local_structs_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling structs definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling structs definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: local_structs_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: local_unions_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling unions definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling unions definition section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: local_unions_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: local_functions_declaration
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling local functions declaration section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling local functions declaration section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: local_functions_declaration
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: local_functions_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling local functions defintion section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling local functions defintion section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: local_functions_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling sections: global_functions_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Filling global functions defintion section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling global functions declaration section
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done filling sections: global_functions_definition
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Successfully putted file sections `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:15:00+0000: ostream: Done running output stream
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Running output stream
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Putting file: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Successfully putted file `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Putting file headers: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Successfully putted file headers `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Putting file sections: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: include_common_headers
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling common headers section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling common headers section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: include_common_headers
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: include_other_headers
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling other headers section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling other headers section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: include_other_headers
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: include_component_headers
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling component headers section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling component headers section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: include_component_headers
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: local_macros_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling macros definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling macros definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: local_macros_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: local_types_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling types definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling types definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: local_types_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: exported_variables_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling exported variables definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling exported variables definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: exported_variables_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: local_enums_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling enums definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling enums definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: local_enums_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: local_variables_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling local variables definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling local variables definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: local_variables_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: local_structs_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling structs definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling structs definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: local_structs_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: local_unions_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling unions definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling unions definition section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: local_unions_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: local_functions_declaration
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling local functions declaration section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling local functions declaration section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: local_functions_declaration
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: local_functions_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling local functions defintion section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling local functions defintion section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: local_functions_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling sections: global_functions_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Filling global functions defintion section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling global functions declaration section
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done filling sections: global_functions_definition
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Successfully putted file sections `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:15:13+0000: ostream: Done running output stream
+[INFO|logy|L65] 2024-06-04T13:17:37+0000: ostream: Running output stream
+[INFO|logy|L65] 2024-06-04T13:17:37+0000: ostream: Putting file: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Successfully putted file `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Putting file headers: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Successfully putted file headers `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Putting file sections: /workspace/out/Can.c
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: include_common_headers
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling common headers section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling common headers section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: include_common_headers
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: include_other_headers
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling other headers section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling other headers section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: include_other_headers
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: include_component_headers
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling component headers section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling component headers section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: include_component_headers
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: local_macros_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling macros definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling macros definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: local_macros_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: local_types_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling types definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling types definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: local_types_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: exported_variables_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling exported variables definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling exported variables definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: exported_variables_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: local_enums_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling enums definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling enums definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: local_enums_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: local_variables_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling local variables definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling local variables definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: local_variables_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: local_structs_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling structs definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling structs definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: local_structs_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: local_unions_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling unions definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling unions definition section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: local_unions_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: local_functions_declaration
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling local functions declaration section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling local functions declaration section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: local_functions_declaration
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: local_functions_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling local functions defintion section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling local functions defintion section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: local_functions_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling sections: global_functions_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Filling global functions defintion section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling global functions declaration section
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done filling sections: global_functions_definition
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Successfully putted file sections `/workspace/out/Can.c`
+[INFO|logy|L65] 2024-06-04T13:17:38+0000: ostream: Done running output stream
