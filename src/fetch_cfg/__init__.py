@@ -18,4 +18,4 @@ License Information:
 
 from .parse_cfg_json import parse_cfg_json as jscfgparser
 
-__all__ = ('jscfgparser',)
+__all__ = ("jscfgparser",)

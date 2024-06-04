@@ -219,7 +219,8 @@ class ostream(object):
                             f"{member.datatype.rjust(5)} {member.name}{';' if not member.bit_field else f':{member.bit_field}'}\n",
                         )
                 self.__stream_out_to_file(
-                    self.__full_fp, f"{'}' if struct.list_of_members else ''};\n",
+                    self.__full_fp,
+                    f"{'}' if struct.list_of_members else ''};\n",
                 )
                 if struct.conditional_include_macro:
                     self.__stream_out_to_file(
@@ -256,7 +257,8 @@ class ostream(object):
                     )
 
                 self.__stream_out_to_file(
-                    self.__full_fp, f"{'}' if enum.dict_of_members else ''};\n",
+                    self.__full_fp,
+                    f"{'}' if enum.dict_of_members else ''};\n",
                 )
 
         except Exception as e:
@@ -289,7 +291,8 @@ class ostream(object):
                             f"{member.datatype.rjust(5)} {member.name}{';' if not member.bit_field else f':{member.bit_field}'}\n",
                         )
                 self.__stream_out_to_file(
-                    self.__full_fp, f"{'}' if union.list_of_members else ''};\n",
+                    self.__full_fp,
+                    f"{'}' if union.list_of_members else ''};\n",
                 )
 
         except Exception as e:
@@ -336,7 +339,8 @@ class ostream(object):
                     self.__stream_out_to_file(self.__full_fp, "*" * 41 + "*/\n")
 
                 self.__stream_out_to_file(
-                    self.__full_fp, f"extern {var.datatype} {var.name};\n",
+                    self.__full_fp,
+                    f"extern {var.datatype} {var.name};\n",
                 )
 
         except Exception as e:
@@ -362,10 +366,12 @@ class ostream(object):
 
                 if bool(var.attributes.strip()):
                     self.__stream_out_to_file(
-                        self.__full_fp, f"{var.attributes}\n",
+                        self.__full_fp,
+                        f"{var.attributes}\n",
                     )
                 self.__stream_out_to_file(
-                    self.__full_fp, f"{var.datatype} {var.name};\n",
+                    self.__full_fp,
+                    f"{var.datatype} {var.name};\n",
                 )
 
         except Exception as e:
@@ -467,7 +473,8 @@ class ostream(object):
                 if function.compiler is not None:
                     for key, value in function.compiler.items():
                         self.__stream_out_to_file(
-                            self.__full_fp, f"{value}\n",
+                            self.__full_fp,
+                            f"{value}\n",
                         )
 
                 if "local" == function.data["local_global"]:
@@ -496,7 +503,8 @@ class ostream(object):
                 if function.compiler is not None:
                     for key, value in function.compiler.items():
                         self.__stream_out_to_file(
-                            self.__full_fp, f"{value}\n",
+                            self.__full_fp,
+                            f"{value}\n",
                         )
 
                 if "local" == function.data["local_global"]:
@@ -531,7 +539,8 @@ class ostream(object):
                 if function.compiler is not None:
                     for key, value in function.compiler.items():
                         self.__stream_out_to_file(
-                            self.__full_fp, f"{value}\n",
+                            self.__full_fp,
+                            f"{value}\n",
                         )
 
                 if "local" == function.data["local_global"]:
@@ -618,7 +627,7 @@ class ostream(object):
             import shutil
 
             shutil.copyfile(file_path, new_path)
-            
+
             os.remove(file_path)
             self.__stream_out_to_file(file_path, "")
         else:

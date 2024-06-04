@@ -951,3 +951,99 @@
 | Number of Services           |       0 |
 +------------------------------+---------+
 [INFO|logy|L65] 2024-06-04T13:17:37+0000: parse_cfg_json: Done running json configuration fetcher
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Running json configuration fetcher...
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file @/workspace/config.json
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: {'metadata': {'generator_name': 'mowx_xftg_wx13', 'version': '2.0.0', 'author': 'MoWx', 'description': 'A tool for generating files from templates', 'created_at': 'May 5 2024', 'last_updated_at': 'May 5 2024'}, 'templates': [{'name': 'C Source File', 'source_file': 'Can', 'file_extension': '.c', 'description': 'Template for generating C source file', 'file_header': [{'name': 'FILENAME', 'value': 'Can.c', 'description': ''}, {'name': 'AUTHOR', 'value': 'AUTOSarZs-DevTeam', 'description': ''}, {'name': 'DATE', 'value': '2024-5-12', 'description': ''}, {'name': 'VERSION', 'value': '1.0.0', 'description': ''}, {'name': 'PLATFORM', 'value': 'Tiva C', 'description': ''}, {'name': 'VENDOR', 'value': 'AUTOSarZs OLC', 'description': ''}, {'name': 'SPECIFICATION(S)', 'value': 'Specification of CAN Driver, AUTOSAR Release 4.3.1', 'description': ''}, {'name': 'MAY BE CHANGED BY USER', 'value': 'No', 'description': ''}, {'name': 'DESCRIPTION', 'value': 'CAN Driver source file', 'description': ''}, {'name': 'LICENSE', 'value': 'MPL 2.0', 'description': ''}], 'file_sections': [{'name': 'include_common_headers', 'value': 'Include Common Headres', 'description': ''}, {'name': 'include_other_headers', 'value': 'Include Other Headres', 'description': ''}, {'name': 'include_component_headers', 'value': 'Include Component Headres', 'description': ''}, {'name': 'local_macros_definition', 'value': 'Local Macro Definition', 'description': ''}, {'name': 'local_types_definition', 'value': 'Local Types Definition', 'description': ''}, {'name': 'exported_variables_definition', 'value': 'Exported Variables Definition', 'description': ''}, {'name': 'local_enums_definition', 'value': 'Local Enums Definition', 'description': ''}, {'name': 'local_variables_definition', 'value': 'Local Variables Definition', 'description': ''}, {'name': 'local_structs_definition', 'value': 'Local Structs Definition', 'description': ''}, {'name': 'local_unions_definition', 'value': 'Local Unions Definition', 'description': ''}, {'name': 'local_functions_declaration', 'value': 'Local Functions Declaration', 'description': ''}, {'name': 'local_functions_definition', 'value': 'Local Functions Definition', 'description': ''}, {'name': 'global_functions_definition', 'value': 'Global Functions Definition', 'description': ''}], 'file_fill_values': {'include_common_headers': [], 'include_other_headers': [], 'include_component_headers': [], 'local_macros_definition': [], 'local_structs_definition': [], 'local_enums_definition': [], 'local_unions_definition': [], 'local_types_definition': [], 'exported_variables_definition': [], 'local_variables_definition': [], 'local_functions_declaration': [], 'local_functions_definition': [], 'global_functions_definition': []}}]}
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the json configuration file @/workspace/config.json
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file metadata
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Checking the generator name
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Valid generator name found
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: {'generator_name': 'mowx_xftg_wx13', 'version': '2.0.0', 'author': 'MoWx', 'description': 'A tool for generating files from templates', 'created_at': 'May 5 2024', 'last_updated_at': 'May 5 2024'}
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the json configuration file metadata
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file templates
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [{'name': 'C Source File', 'source_file': 'Can', 'file_extension': '.c', 'description': 'Template for generating C source file', 'file_header': [{'name': 'FILENAME', 'value': 'Can.c', 'description': ''}, {'name': 'AUTHOR', 'value': 'AUTOSarZs-DevTeam', 'description': ''}, {'name': 'DATE', 'value': '2024-5-12', 'description': ''}, {'name': 'VERSION', 'value': '1.0.0', 'description': ''}, {'name': 'PLATFORM', 'value': 'Tiva C', 'description': ''}, {'name': 'VENDOR', 'value': 'AUTOSarZs OLC', 'description': ''}, {'name': 'SPECIFICATION(S)', 'value': 'Specification of CAN Driver, AUTOSAR Release 4.3.1', 'description': ''}, {'name': 'MAY BE CHANGED BY USER', 'value': 'No', 'description': ''}, {'name': 'DESCRIPTION', 'value': 'CAN Driver source file', 'description': ''}, {'name': 'LICENSE', 'value': 'MPL 2.0', 'description': ''}], 'file_sections': [{'name': 'include_common_headers', 'value': 'Include Common Headres', 'description': ''}, {'name': 'include_other_headers', 'value': 'Include Other Headres', 'description': ''}, {'name': 'include_component_headers', 'value': 'Include Component Headres', 'description': ''}, {'name': 'local_macros_definition', 'value': 'Local Macro Definition', 'description': ''}, {'name': 'local_types_definition', 'value': 'Local Types Definition', 'description': ''}, {'name': 'exported_variables_definition', 'value': 'Exported Variables Definition', 'description': ''}, {'name': 'local_enums_definition', 'value': 'Local Enums Definition', 'description': ''}, {'name': 'local_variables_definition', 'value': 'Local Variables Definition', 'description': ''}, {'name': 'local_structs_definition', 'value': 'Local Structs Definition', 'description': ''}, {'name': 'local_unions_definition', 'value': 'Local Unions Definition', 'description': ''}, {'name': 'local_functions_declaration', 'value': 'Local Functions Declaration', 'description': ''}, {'name': 'local_functions_definition', 'value': 'Local Functions Definition', 'description': ''}, {'name': 'global_functions_definition', 'value': 'Global Functions Definition', 'description': ''}], 'file_fill_values': {'include_common_headers': [], 'include_other_headers': [], 'include_component_headers': [], 'local_macros_definition': [], 'local_structs_definition': [], 'local_enums_definition': [], 'local_unions_definition': [], 'local_types_definition': [], 'exported_variables_definition': [], 'local_variables_definition': [], 'local_functions_declaration': [], 'local_functions_definition': [], 'global_functions_definition': []}}]
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: Number of templates provided: 1
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Checking the template format
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Validating the json configuration file template format
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [*] name[template:0]: ['C Source File']
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [*] description[template:0]: ['Template for generating C source file']
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [*] file_extension[template:0]: ['.c']
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [*] source_file[template:0]: ['Can']
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [*] file_header[template:0]: [[{'name': 'FILENAME', 'value': 'Can.c', 'description': ''}, {'name': 'AUTHOR', 'value': 'AUTOSarZs-DevTeam', 'description': ''}, {'name': 'DATE', 'value': '2024-5-12', 'description': ''}, {'name': 'VERSION', 'value': '1.0.0', 'description': ''}, {'name': 'PLATFORM', 'value': 'Tiva C', 'description': ''}, {'name': 'VENDOR', 'value': 'AUTOSarZs OLC', 'description': ''}, {'name': 'SPECIFICATION(S)', 'value': 'Specification of CAN Driver, AUTOSAR Release 4.3.1', 'description': ''}, {'name': 'MAY BE CHANGED BY USER', 'value': 'No', 'description': ''}, {'name': 'DESCRIPTION', 'value': 'CAN Driver source file', 'description': ''}, {'name': 'LICENSE', 'value': 'MPL 2.0', 'description': ''}]]
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [*] file_sections[template:0]: [[{'name': 'include_common_headers', 'value': 'Include Common Headres', 'description': ''}, {'name': 'include_other_headers', 'value': 'Include Other Headres', 'description': ''}, {'name': 'include_component_headers', 'value': 'Include Component Headres', 'description': ''}, {'name': 'local_macros_definition', 'value': 'Local Macro Definition', 'description': ''}, {'name': 'local_types_definition', 'value': 'Local Types Definition', 'description': ''}, {'name': 'exported_variables_definition', 'value': 'Exported Variables Definition', 'description': ''}, {'name': 'local_enums_definition', 'value': 'Local Enums Definition', 'description': ''}, {'name': 'local_variables_definition', 'value': 'Local Variables Definition', 'description': ''}, {'name': 'local_structs_definition', 'value': 'Local Structs Definition', 'description': ''}, {'name': 'local_unions_definition', 'value': 'Local Unions Definition', 'description': ''}, {'name': 'local_functions_declaration', 'value': 'Local Functions Declaration', 'description': ''}, {'name': 'local_functions_definition', 'value': 'Local Functions Definition', 'description': ''}, {'name': 'global_functions_definition', 'value': 'Global Functions Definition', 'description': ''}]]
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [*] file_fill_values[template:0]: [{'include_common_headers': [], 'include_other_headers': [], 'include_component_headers': [], 'local_macros_definition': [], 'local_structs_definition': [], 'local_enums_definition': [], 'local_unions_definition': [], 'local_types_definition': [], 'exported_variables_definition': [], 'local_variables_definition': [], 'local_functions_declaration': [], 'local_functions_definition': [], 'global_functions_definition': []}]
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Valid template format
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template file header
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: Number of headers in file header 0: 10
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing file header 0:
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [{'name': 'FILENAME', 'value': 'Can.c', 'description': ''}, {'name': 'AUTHOR', 'value': 'AUTOSarZs-DevTeam', 'description': ''}, {'name': 'DATE', 'value': '2024-5-12', 'description': ''}, {'name': 'VERSION', 'value': '1.0.0', 'description': ''}, {'name': 'PLATFORM', 'value': 'Tiva C', 'description': ''}, {'name': 'VENDOR', 'value': 'AUTOSarZs OLC', 'description': ''}, {'name': 'SPECIFICATION(S)', 'value': 'Specification of CAN Driver, AUTOSAR Release 4.3.1', 'description': ''}, {'name': 'MAY BE CHANGED BY USER', 'value': 'No', 'description': ''}, {'name': 'DESCRIPTION', 'value': 'CAN Driver source file', 'description': ''}, {'name': 'LICENSE', 'value': 'MPL 2.0', 'description': ''}]
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: Collected fields: {'FILENAME': 'Can.c', 'AUTHOR': 'AUTOSarZs-DevTeam', 'DATE': '2024-5-12', 'VERSION': '1.0.0', 'PLATFORM': 'Tiva C', 'VENDOR': 'AUTOSarZs OLC', 'SPECIFICATION(S)': 'Specification of CAN Driver, AUTOSAR Release 4.3.1', 'MAY BE CHANGED BY USER': 'No', 'DESCRIPTION': 'CAN Driver source file', 'LICENSE': 'MPL 2.0'}
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file headers
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template file section
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: Number of sections in file sections 0: 13
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing file section 0:
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: [{'name': 'include_common_headers', 'value': 'Include Common Headres', 'description': ''}, {'name': 'include_other_headers', 'value': 'Include Other Headres', 'description': ''}, {'name': 'include_component_headers', 'value': 'Include Component Headres', 'description': ''}, {'name': 'local_macros_definition', 'value': 'Local Macro Definition', 'description': ''}, {'name': 'local_types_definition', 'value': 'Local Types Definition', 'description': ''}, {'name': 'exported_variables_definition', 'value': 'Exported Variables Definition', 'description': ''}, {'name': 'local_enums_definition', 'value': 'Local Enums Definition', 'description': ''}, {'name': 'local_variables_definition', 'value': 'Local Variables Definition', 'description': ''}, {'name': 'local_structs_definition', 'value': 'Local Structs Definition', 'description': ''}, {'name': 'local_unions_definition', 'value': 'Local Unions Definition', 'description': ''}, {'name': 'local_functions_declaration', 'value': 'Local Functions Declaration', 'description': ''}, {'name': 'local_functions_definition', 'value': 'Local Functions Definition', 'description': ''}, {'name': 'global_functions_definition', 'value': 'Global Functions Definition', 'description': ''}]
+[DEBUG|logy|L62] 2024-06-04T13:24:56+0000: parse_cfg_json: Collected fields: {'include_common_headers': 'Include Common Headres', 'include_other_headers': 'Include Other Headres', 'include_component_headers': 'Include Component Headres', 'local_macros_definition': 'Local Macro Definition', 'local_types_definition': 'Local Types Definition', 'exported_variables_definition': 'Exported Variables Definition', 'local_enums_definition': 'Local Enums Definition', 'local_variables_definition': 'Local Variables Definition', 'local_structs_definition': 'Local Structs Definition', 'local_unions_definition': 'Local Unions Definition', 'local_functions_declaration': 'Local Functions Declaration', 'local_functions_definition': 'Local Functions Definition', 'global_functions_definition': 'Global Functions Definition'}
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file sections
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (include_common_headers)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (include_common_headers)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (include_other_headers)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (include_other_headers)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (component_headers)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (component_headers)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (macros definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (macros definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (structs_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (structs_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (enums_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (enums_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (unions_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (unions_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (local_types_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (local_types_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (exported_variables_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (exported_variables_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (local_variables_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (local_variables_definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (local functions declaration)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (functions)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (local functions definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (local functions definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Parsing the json configuration file template fill values (global functions definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template file fill values (global functions definition)
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Successfully parsed the template fill values
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Running analyzer...
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: 
++------------------------------+---------+
+| Attribute                    |   Value |
++==============================+=========+
+| Number of Templates Provided |       1 |
++------------------------------+---------+
+| Number of C Templates        |       1 |
++------------------------------+---------+
+| Number of H Templates        |       0 |
++------------------------------+---------+
+| Number of Common Headers     |       0 |
++------------------------------+---------+
+| Number of Other Headers      |       0 |
++------------------------------+---------+
+| Number of Component Headers  |       0 |
++------------------------------+---------+
+| Number of Enums              |       0 |
++------------------------------+---------+
+| Number of Structs            |       0 |
++------------------------------+---------+
+| Number of Unions             |       0 |
++------------------------------+---------+
+| Number of Macros             |       0 |
++------------------------------+---------+
+| Number of Exported Variables |       0 |
++------------------------------+---------+
+| Number of Local Variables    |       0 |
++------------------------------+---------+
+| Number of Functions          |       0 |
++------------------------------+---------+
+| Number of Services           |       0 |
++------------------------------+---------+
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: parse_cfg_json: Done running json configuration fetcher

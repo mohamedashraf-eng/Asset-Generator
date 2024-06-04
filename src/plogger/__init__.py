@@ -18,4 +18,4 @@ License Information:
 
 from .logy import logy
 
-__all__ = ('logy',)
+__all__ = ("logy",)

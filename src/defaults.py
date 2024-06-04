@@ -19,7 +19,7 @@ OUTPUT_DIR = f"{PROJECT_ROOT_DIR}/out"
 
 PROJECT_NAME = f"wxproject"
 
-RUN_FORMATTER = False 
+RUN_FORMATTER = False
 FORMATTER_SCRIPT_PATH = f"{PROJECT_ROOT_DIR}/data/formatters/clang/.clang-format"
 
 # Module configuration

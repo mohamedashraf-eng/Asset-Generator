@@ -21,7 +21,7 @@ import json
 class logy(object):
     """
     Creates a logger handle for the current module.
-    
+
     Args:
         module_name (str): Name of the module.
     """

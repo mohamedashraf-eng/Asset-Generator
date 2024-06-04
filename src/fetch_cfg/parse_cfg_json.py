@@ -338,7 +338,10 @@ class unions(object):
 
 class enums(object):
     def __init__(
-        self, name: str = None, dict_of_members: dict = None, description=None,
+        self,
+        name: str = None,
+        dict_of_members: dict = None,
+        description=None,
     ):
         self.__name = name
         self.__dict_of_members = dict_of_members

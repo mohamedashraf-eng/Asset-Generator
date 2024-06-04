@@ -35,3 +35,7 @@
 [INFO|logy|L65] 2024-06-04T13:17:37+0000: generator: Done running the json configuration parser
 [INFO|logy|L65] 2024-06-04T13:17:37+0000: generator: Running Ostream for the templates
 [INFO|logy|L65] 2024-06-04T13:17:38+0000: generator: Done running Ostream for the templates
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: generator: Running the json configuration parser
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: generator: Done running the json configuration parser
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: generator: Running Ostream for the templates
+[INFO|logy|L65] 2024-06-04T13:24:56+0000: generator: Done running Ostream for the templates
