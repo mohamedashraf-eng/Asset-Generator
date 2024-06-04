@@ -8,8 +8,8 @@ set( CMAKE_INSTALL_PREFIX "./" CACHE PATH "Default install path")
 ##############################################################################
 
 set( software_dir "${SW_DIR}" CACHE PATH "Default")
-set( app_swc "${SW_DIR}" CACHE PATH "Default")
-set( bsw_dir "${SW_DIR}/software/bsw/" CACHE PATH "Default")
+set( app_dir "${SW_DIR}/application" CACHE PATH "Default")
+set( bsw_dir "${SW_DIR}/bsw/" CACHE PATH "Default")
 set( mcal_dir "${bsw_dir}/mcal" CACHE PATH "Default")
 
 # set( xyz "${SW_DIR}/xyz/xyz" CACHE PATH "Default")
@@ -25,7 +25,7 @@ set( mcal_dir "${bsw_dir}/mcal" CACHE PATH "Default")
 ##############################################################################
 # App Software Components                                                    #
 ############################################################################## 
-set( app_swc  "${SW_DIR}/application/app_swc" CACHE PATH "Default")
+set( app_swc  "${app_dir}/app_swc" CACHE PATH "Default")
 
 ##############################################################################
 # Frameworks                                                                 #

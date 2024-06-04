@@ -116,7 +116,7 @@ message(STATUS "Building software")
 add_subdirectory("${bsw}")
 
 # building application
-add_subdirectory("${application}")
+add_subdirectory("${app_dir}")
 """,
         'application/CMakeLists.txt': """
 cmake_minimum_required(VERSION 3.10)
