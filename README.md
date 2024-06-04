@@ -31,10 +31,12 @@ To run the generator properly:
         <a href="https://imgbb.com/"><img src="https://i.ibb.co/6vcGy3p/config-json-location.png" alt="config-json-location" border="0" /></a>
         </div>  
 
-    2. After cofiguring the templates to generate in the json config file you need to run @root
+    2. After cofiguring the templates to generate in the json config file you need to run @root  
+    
 ```bash
 source ./build.sh
-```
+```  
+
     3. To see the output head to the `/out`
 
 ## Configurations  
