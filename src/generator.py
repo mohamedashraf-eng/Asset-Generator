@@ -4,6 +4,7 @@ from stream import ostra
 from utils import xgformatter
 import defaults
 
+
 def run():
     gen_log = logy("generator")
 
@@ -14,7 +15,7 @@ def run():
     js_cfg_parser = jscfgparser()
     js_cfg_parser.run()
     gen_log.info("Done running the json configuration parser")
-    
+
     # Run Ostra
     ## Initiate data for Ostra
     n_temp = js_cfg_parser.get_num_of_templates()
@@ -57,13 +58,13 @@ def run():
         ## Run for the provided template
         ouput_stream.run()
         gen_log.info("Done running Ostream for the templates")
-        
+
     # Format the output files
     if defaults.RUN_FORMATTER:
         gen_log.info("Running formatter")
         xgformatter(defaults.OUTPUT_DIR)
         gen_log.info("Done running formatter")
-        
-        
-# TODO(Wx): Optimize the call   
+
+
+# TODO(Wx): Optimize the call
 run()

@@ -2,7 +2,6 @@ import defaults
 from plogger import logy
 import os
 
-
 class ostream(object):
     def __init__(
         self,
@@ -65,23 +64,7 @@ class ostream(object):
         try:
             # Hard coded license
             # TODO(Wx): Add license selector / json
-            hard_coded_license = """
-/********************************************************************************************            
-**                                    AUTOSarZs olc
-**                              ------------------------
-**                              AUTOSAR free for learning
-** 
-**   Copyright (C) 2019 AUTOSarZs olc
-**   All rights reserved.                                                   
-**                                                                   
-**   This document contains proprietary information belonging to AUTOSarZs olc. 
-**   Passing on and copying of this document, and communication       
-**   of its contents is not permitted without prior written authorization.  
-**                                                       
-**   This software is licensed under the Mozilla Public License Version 2.0.
-**   For details, see the LICENSE.txt file in the root directory of this project.
-********************************************************************************************/
-"""
+            hard_coded_license = self.__fetch_template(os.path.join(defaults.PROJECT_TEMPLATE_DIR, "hard_coded_license_template.txt"))
             self.__stream_out_to_file(self.__full_fp, hard_coded_license)
 
             self.__stream_out_to_file(self.__full_fp, "/*" + "*" * 90 + "\n")
@@ -638,7 +621,30 @@ class ostream(object):
             pass
         else:
             os.makedirs(dir_path, exist_ok=True)
+            
+    def __fetch_template(self, template_path: str):
+        if os.path.exists(template_path):
+            with open(template_path, "r") as f2r:
+                return f2r.read()
+        else:
+            print(f"Invalid path @{template_path}")
+            return ""
+        
+    def __write_template_to_file(self, template_name: str, target_file: str):
+        template_path = os.path.join(
+            defaults.PROJECT_TEMPLATE_DIR, f"{template_name}_template.txt"
+        )
+        content = self.__fetch_template(template_path)
 
+        # Perform the replacement
+        swc_lower = self.__file_name.lower()
+        swc_capitalized = self.__file_name.capitalize()
+        content = content.replace("{_swc_}", swc_lower)
+        content = content.replace("{_Swc_}", swc_capitalized)
+
+        self.__create_a_file(target_file)
+        self.__stream_out_to_file(target_file, content)
+        
     def put_file(self, file_fp: str = None):
         assert file_fp is not None
         self.__logger.info(f"Putting file: {file_fp}")
@@ -661,20 +667,34 @@ class ostream(object):
 
                 self.__sources_dir = f"{base_dir}/{defaults.MODULE_SOURCES_DIR_NAME}"
                 self.__create_a_dir(self.__sources_dir)
+                self.__full_fp = (
+                    f"{self.__sources_dir}/{self.__file_name}{self.__file_extension}"
+                )
 
                 self.__tests_dir = f"{base_dir}/{defaults.MODULE_TESTS_DIR_NAME}"
                 self.__create_a_dir(self.__tests_dir)
                 self.__create_a_dir(f"{self.__tests_dir}/unit")
-                self.__create_a_dir(f"{self.__tests_dir}/integration")
-
+                self.__create_a_dir(f"{self.__tests_dir}/unit/stubs")
+                
+                self.__create_a_file(
+                    f"{self.__tests_dir}/unit/stubs/stubs_xyz.h"
+                )
                 self.__create_a_dir(f"{self.__tests_dir}/unit/test_runners")
                 self.__create_a_file(
-                    f"{self.__tests_dir}/unit/test_runners/all_tests.c"
+                    f"{self.__tests_dir}/unit/test_{base_filename}_swc.c"
                 )
+                self.__write_template_to_file("test_swc", f"{self.__tests_dir}/unit/test_{base_filename}_swc.c")
+                
                 self.__create_a_file(
-                    f"{self.__tests_dir}/unit/test_runners/{base_filename}_Runner.c"
+                    f"{self.__tests_dir}/unit/test_runners/{base_filename}_runner.c"
                 )
-
+                self.__write_template_to_file("test_runner", f"{self.__tests_dir}/unit/test_runners/{base_filename}_runner.c")
+                
+                self.__create_a_file(
+                    f"{self.__tests_dir}/unit/test_runners/test_main.c"
+                )
+                self.__write_template_to_file("test_main", f"{self.__tests_dir}/unit/test_runners/test_main.c")
+                
                 self.__tools_dir = f"{base_dir}/{defaults.MODULE_TOOLS_DIR_NAME}"
                 self.__create_a_dir(self.__tools_dir)
 
@@ -684,17 +704,19 @@ class ostream(object):
                     )
                     self.__create_a_dir(self.__cmake_dir)
 
-                # Create file
-                self.__create_a_file(file_fp)
-
-                # Create cmake(s)
-                self.__create_a_file(f"{base_dir}/CMakelists.txt")
-                self.__create_a_file(
-                    f"{self.__cmake_dir}/{base_filename}_swc_compile.cmake"
-                )
-                self.__create_a_file(
-                    f"{self.__cmake_dir}/{base_filename}_swc_tests.cmake"
-                )
+                    # Create cmake(s)
+                    self.__create_a_file(f"{base_dir}/CMakeLists.txt")
+                    self.__write_template_to_file("CMakeLists_swc", f"{base_dir}/CMakeLists.txt")
+                    
+                    self.__create_a_file(
+                        f"{self.__cmake_dir}/{base_filename}_swc_compile.cmake"
+                    )
+                    self.__write_template_to_file("cmake_compile_swc", f"{self.__cmake_dir}/{base_filename}_swc_compile.cmake")
+                    
+                    self.__create_a_file(
+                        f"{self.__cmake_dir}/{base_filename}_swc_tests.cmake"
+                    )
+                    self.__write_template_to_file("cmake_test_swc", f"{self.__cmake_dir}/{base_filename}_swc_tests.cmake")
 
             else:
                 self.__create_a_file(file_fp)

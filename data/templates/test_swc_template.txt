@@ -1,0 +1,25 @@
+#include "{_Swc_}.h"
+#include "unity.h"
+#include "unity_fixture.h"
+#include "stub_xyz.h"
+
+/* Define the test group name for this swc */
+TEST_GROUP({_swc_}_swc);
+
+/* Setup for all tests (Pre conditions) */
+TEST_SETUP({_swc_}_swc)
+{
+    ;
+}
+
+/* Setup for all tests (Post conditions) */
+TEST_TEAR_DOWN({_swc_}_swc)
+{
+    ;
+}
+
+/* Example test case */
+TEST({_swc_}_swc, test_{_swc_}_XYZ)
+{
+    ;
+}

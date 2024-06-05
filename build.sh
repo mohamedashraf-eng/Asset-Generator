@@ -38,3 +38,4 @@ echo_color $GREEN "${BOLD}Generating project folder structure${RESET}"
 python3 src/generate_full_project.py
 echo_color $GREEN "${BOLD}Generating file template${RESET}"
 python3 src/generator.py
+

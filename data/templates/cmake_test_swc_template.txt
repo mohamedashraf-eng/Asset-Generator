@@ -1,0 +1,50 @@
+set(
+    {_swc_}_swc_tests_sources_list
+
+    ${{_swc_}_swc}/tests/unit/test_{_swc_}_swc.c
+
+    # Any mocked file will be under ${MOCK_FILE_PATH}/mocks/mock_headerFileName.c
+
+    # Include Test Runners 
+    ${{_swc_}_swc}/tests/unit/test_runners/test_runner.c
+    ${{_swc_}_swc}/tests/unit/test_runners/test_main.c
+)
+
+set(
+    {_swc_}_swc_ut_sources_list
+    
+    ${{_swc_}_swc}/core/{_Swc_}.c
+)
+
+set (
+    {_swc_}_swc_mock_header_files
+    
+    ${stubs}
+)
+
+set(
+    {_swc_}_swc_tests_includes
+
+    ${{_swc_}_swc}/core
+    ${common_includes}
+    ${platform}
+    ${stubs}
+    ${{_swc_}_swc}/tests/unit/stubs
+    ${MOCK_FILE_PATH}/mocks/
+)
+
+set(
+    {_swc_}_swc_tests_compile_options
+
+)
+
+set(
+    {_swc_}_swc_tests_defines
+
+)
+
+set(
+    {_swc_}_swc_tests_libs
+
+    "{_swc_}_swc"
+)

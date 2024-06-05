@@ -1,0 +1,24 @@
+set(
+    {_swc_}_swc_sources_list
+
+    ${{_swc_}_swc}/core/{_Swc_}.c
+)
+
+set(
+    {_swc_}_swc_includes
+
+    ${{_swc_}_swc}/core
+    ${common_includes}
+    ${platform}
+    ${stubs}
+)
+
+set(
+    {_swc_}_swc_defines
+
+)
+
+set(
+    {_swc_}_swc_compile_options
+
+)
