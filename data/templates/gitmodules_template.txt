@@ -1,3 +1,0 @@
-[submodule "tools/frameworks/CMock"]
-	path = tools/frameworks/CMock
-	url = https://github.com/ThrowTheSwitch/CMock.git

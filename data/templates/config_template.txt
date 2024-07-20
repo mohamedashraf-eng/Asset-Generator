@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email
+    url: mohamedashrafwx@gmail.com
+    about: Subject -> WXK - [<name>] - <title>, Body -> <description> 
+  - name: GitHub
+    url: https://github.com/mohamedashrafwx
+    about: Open an issue on GitHub

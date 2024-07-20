@@ -95,6 +95,7 @@ updates:
      interval: weekly
 """
     stream_out_to_file(os.path.join(github_dir, "dependabot.yml"), dependabot_fill)
+    #
     write_template_to_file(
         "pullrequest", os.path.join(github_dir, "pull_request_template.md")
     )
@@ -105,8 +106,42 @@ updates:
     write_template_to_file(
         "config", os.path.join(github_dir, "ISSUE_TEMPLATE", "config.yml")
     )
-
-
+    # Workflows
+    write_template_to_file(
+        "devcontainer_update", os.path.join(github_dir, "workflows", "devcontainer_update.yml")
+    )
+    write_template_to_file(
+        "pull_request", os.path.join(github_dir, "workflows", "pull_request.yml")
+    )
+    write_template_to_file(
+        "scheduled", os.path.join(github_dir, "workflows", "scheduled.yml")
+    )
+    # actions
+    create_dir(f"{github_dir}/actions/build")
+    write_template_to_file(
+        "build_action", os.path.join(github_dir, "actions/build", "action.yml")
+    )
+    create_dir(f"{github_dir}/actions/test")
+    write_template_to_file(
+        "test_action", os.path.join(github_dir, "actions/test", "action.yml")
+    )
+    
+    create_dir(f"{github_dir}/actions/check-branch-name")
+    write_template_to_file(
+        "check_branch_name_action", os.path.join(github_dir, "actions/check-branch-name", "action.yml")
+    )
+    write_template_to_file(
+        "check_branch_name_py", os.path.join(github_dir, "actions/check-branch-name", "check_branch_name.py")
+    )
+    
+    create_dir(f"{github_dir}/actions/check-commit-message")
+    write_template_to_file(
+        "check_commit_message_action", os.path.join(github_dir, "actions/check-commit-message", "action.yml")
+    )
+    write_template_to_file(
+        "check_commit_message_py", os.path.join(github_dir, "actions/check-commit-message", "check_commit_message.py")
+    )
+    
 def create_devcontainer_dir():
     devcontainer_dir = os.path.join(out_root_dir, ".devcontainer")
     create_dir(devcontainer_dir)

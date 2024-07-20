@@ -10,6 +10,8 @@ set( CMAKE_INSTALL_PREFIX "./" CACHE PATH "Default install path")
 set( software_dir "${SW_DIR}" CACHE PATH "Default")
 set( app_dir "${SW_DIR}/application" CACHE PATH "Default")
 set( bsw_dir "${SW_DIR}/bsw/" CACHE PATH "Default")
+set( stubs "${SW_DIR}/common/stubs" CACHE PATH "Default")
+set( platform "${SW_DIR}/common/platform" CACHE PATH "Default")
 set( mcal_dir "${bsw_dir}/mcal" CACHE PATH "Default")
 
 # set( xyz "${SW_DIR}/xyz/xyz" CACHE PATH "Default")

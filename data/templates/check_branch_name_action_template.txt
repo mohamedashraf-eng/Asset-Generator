@@ -1,0 +1,21 @@
+name: Check Branch Name
+
+description: Check if branch name is valid
+
+runs:
+  using: "composite"
+  steps:
+
+    - name: Run Python Script
+      id: check_branch_name_script
+      shell: bash
+      run: |
+        # Install dependencies
+        pip install -r $GITHUB_ACTION_PATH/requirements.txt
+
+        # Exec the sciprt
+        output=$(python $GITHUB_ACTION_PATH/check_branch_name.py \
+          --branch_name "${{ github.event.pull_request.head.ref }}")
+
+        # Print the whole script output for debugging
+        echo "$output"

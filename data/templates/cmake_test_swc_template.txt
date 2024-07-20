@@ -13,13 +13,12 @@ set(
 set(
     {_swc_}_swc_ut_sources_list
     
-    ${{_swc_}_swc}/core/{_Swc_}.c
+    ${{_swc_}_swc}/core/{_swc_}.c
 )
 
 set (
     {_swc_}_swc_mock_header_files
     
-    ${stubs}
 )
 
 set(
@@ -28,7 +27,6 @@ set(
     ${{_swc_}_swc}/core
     ${common_includes}
     ${platform}
-    ${stubs}
     ${{_swc_}_swc}/tests/unit/stubs
     ${MOCK_FILE_PATH}/mocks/
 )

@@ -1,0 +1,39 @@
+name: Pull Request
+
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+    branches:
+      - main
+
+jobs:
+  sanity-check:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check Branch Name
+        uses: ./.github/actions/check-branch-name
+
+      - name: Check Commit Messages
+        uses: ./.github/actions/check-commit-message
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  test:
+    runs-on: ubuntu-22.04
+    needs: sanity-check
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: 'recursive'
+
+      - name: Test
+        uses: ./.github/actions/test

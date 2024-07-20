@@ -1,6 +1,5 @@
 include Makefile.variables
 
-
 ##############################################################################
 # Shell Colors                                                               #
 ##############################################################################
@@ -31,8 +30,8 @@ endif
 	@mkdir -p $(BUILD_DIR)
 	@echo "BUILD_DIR=$(BUILD_DIR)"
 	cd $(BUILD_DIR)/ && \
-	cmake -S $(CURDIR) -B $(BUILD_DIR) $(CMAKE_BUILD_VARIABLES) ;\
- 	make app_swc install -j$(MAXIMUM_CPU_CORES)
+	cmake -S $(CURDIR) -B $(BUILD_DIR) $(CMAKE_BUILD_VARIABLES) ; \
+ 	make wxk install -j$(MAXIMUM_CPU_CORES)
 
 ##############################################################################
 # Test                                                                       #
@@ -47,7 +46,7 @@ CMAKE_TEST_VARIABLES += -DBUILD_TESTS_DIR=$(BUILD_TESTS_DIR)
 
 
 # Test directories
-TEST_DIRS := $(wildcard $(BUILD_TESTS_DIR)/software/*/*/*)
+TEST_DIRS := $(wildcard $(BUILD_TESTS_DIR)/software/*/*)
 
 # Find test programs
 TEST_PROGRAMS := $(foreach dir,$(TEST_DIRS),$(wildcard $(dir)/*_test))
@@ -68,7 +67,6 @@ endif
 	@ruby $(UNITY_ROOT)/auto/parse_output.rb -xml $(UNIT_TESTS_INSTALL_DIR)/test_results.txt
 	@mv $(WORKSPACE_DIR)/report.xml $(UNIT_TESTS_INSTALL_DIR)/test_results.xml
 
-
 ##############################################################################
 # Build Test files                                                           #
 ##############################################################################
@@ -81,13 +79,13 @@ build_test:
 
 test: $(TEST_PROGRAMS)
 	@echo ""
-	@echo "${HEADRS}Running all test programs${NC}"
+	@echo "Running all test programs"
 	@echo ""
 	@mkdir -p $(UNIT_TESTS_INSTALL_DIR)
 	@for program in $^; do \
 		echo "-----------------------";\
 		echo "Running $$program"; \
-		$$program -v | sed -E 's#.*\.c:[0-9]+:TEST\(([^)]+)\)#TEST(\1)#g; s#/workspace/software/bsw/mcal/unity_swc/tests/##g' | tee -a $(UNIT_TESTS_INSTALL_DIR)/test_results.txt; \
+		$$program -v | sed -E 's#.*\.c:[0-9]+:TEST\(([^)]+)\)#TEST(\1)#g; s#$(PROJECT_ROOT)/##g' | tee -a $(UNIT_TESTS_INSTALL_DIR)/test_results.txt; \
 	done;
 
 ##############################################################################

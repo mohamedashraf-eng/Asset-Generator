@@ -10,18 +10,18 @@
     "templates": [
         {
             "name": "C Source File",
-            "source_file": "Can",
+            "source_file": "kernel",
             "file_extension": ".c",
             "description": "Template for generating C source file",
             "file_header": [
                 {
                     "name": "FILENAME",
-                    "value": "Can.c",
+                    "value": "kernel.c",
                     "description": ""
                 },
                 {
                     "name": "AUTHOR",
-                    "value": "AUTOSarZs-DevTeam",
+                    "value": "Mohamed Wx",
                     "description": ""
                 },
                 {
@@ -36,17 +36,17 @@
                 },
                 {
                     "name": "PLATFORM",
-                    "value": "Tiva C",
+                    "value": "N/C",
                     "description": ""
                 },
                 {
                     "name": "VENDOR",
-                    "value": "AUTOSarZs OLC",
+                    "value": "MoWx",
                     "description": ""
                 },
                 {
                     "name": "SPECIFICATION(S)",
-                    "value": "Specification of CAN Driver, AUTOSAR Release 4.3.1",
+                    "value": "N/C",
                     "description": ""
                 },
                 {
@@ -56,12 +56,12 @@
                 },
                 {
                     "name": "DESCRIPTION",
-                    "value": "CAN Driver source file",
+                    "value": "Kernel module",
                     "description": ""
                 }, 
                 {
                     "name": "LICENSE",
-                    "value": "MPL 2.0",
+                    "value": "MIT",
                     "description": ""
                 }
             ],

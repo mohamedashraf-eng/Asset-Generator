@@ -4,7 +4,5 @@
 /* Running all test cases within the group */
 TEST_GROUP_RUNNER({_swc_}_swc)
 {
-    RUN_TEST_CASE({_swc_}_swc, xyz);
-    RUN_TEST_CASE({_swc_}_swc, xyz)
-    RUN_TEST_CASE({_swc_}_swc, xyz)
+    ;
 }

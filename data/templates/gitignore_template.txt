@@ -1,3 +1,8 @@
+.gitignore
+backup/
+*/backup/
+*/*/backup/
+*/*/*/backup/
 .vscode/
 tools/build/IDE/*/build/build/
 tools/build/CMake/Build/

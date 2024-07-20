@@ -1441,7 +1441,7 @@ class parse_cfg_json:
         return self.__local_functions_declaration[template_n]
 
     def get_template_local_functions_definition(self, template_n: int = None):
-        return self.__local_functions_declaration[template_n]
+        return self.__local_functions_definition[template_n]
 
     def get_template_global_functions_definition(self, template_n: int = None):
         return self.__global_functions_definition[template_n]
@@ -1485,4 +1485,5 @@ class parse_cfg_json:
         self.__parse_metadata()
         self.__parse_templates()
         self.__analyzer()
+            
         self.__logger.info("Done running json configuration fetcher")
